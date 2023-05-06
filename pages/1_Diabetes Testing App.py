@@ -5,7 +5,6 @@ from pickle import load
 
 
 st.set_page_config(page_title="Diabetes Testing App",
-                   page_icon="::",
                    layout="centered")
 
 st.sidebar.title("Diabetes Testing App")
@@ -106,4 +105,4 @@ if btn_click == True:
             st.markdown("<h2 style='color: green;'>You don't have diabetes.</h2>",unsafe_allow_html=True)
             
     else:
-        st.error("Enter tyhe values properly.")
+        st.error("Enter the values properly.")
